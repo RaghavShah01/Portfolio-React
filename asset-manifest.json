@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RaghavShah01/Portfolio-react/static/css/main.5d61a0d8.chunk.css",
+    "main.js": "/RaghavShah01/Portfolio-react/static/js/main.1f506cdd.chunk.js",
+    "main.js.map": "/RaghavShah01/Portfolio-react/static/js/main.1f506cdd.chunk.js.map",
+    "runtime-main.js": "/RaghavShah01/Portfolio-react/static/js/runtime-main.88f7006b.js",
+    "runtime-main.js.map": "/RaghavShah01/Portfolio-react/static/js/runtime-main.88f7006b.js.map",
+    "static/js/2.4cecabea.chunk.js": "/RaghavShah01/Portfolio-react/static/js/2.4cecabea.chunk.js",
+    "static/js/2.4cecabea.chunk.js.map": "/RaghavShah01/Portfolio-react/static/js/2.4cecabea.chunk.js.map",
+    "index.html": "/RaghavShah01/Portfolio-react/index.html",
+    "precache-manifest.013958fddc21da7b22a64667d6601e62.js": "/RaghavShah01/Portfolio-react/precache-manifest.013958fddc21da7b22a64667d6601e62.js",
+    "service-worker.js": "/RaghavShah01/Portfolio-react/service-worker.js",
+    "static/css/main.5d61a0d8.chunk.css.map": "/RaghavShah01/Portfolio-react/static/css/main.5d61a0d8.chunk.css.map",
+    "static/js/2.4cecabea.chunk.js.LICENSE.txt": "/RaghavShah01/Portfolio-react/static/js/2.4cecabea.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88f7006b.js",
+    "static/js/2.4cecabea.chunk.js",
+    "static/css/main.5d61a0d8.chunk.css",
+    "static/js/main.1f506cdd.chunk.js"
+  ]
+}
