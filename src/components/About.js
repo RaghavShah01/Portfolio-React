@@ -22,7 +22,7 @@ const About = () => {
         <div className="row h-350 alignTop">
           <div className="col-6">
             <div className="about__img">
-              <img src={`${process.env.PUBLIC_URL}/images/man-01.png`} alt="man" />
+              <img src="/images/man-01.png" alt="man" />
             </div>
           </div>
           <div className="col-6">

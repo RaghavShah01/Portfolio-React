@@ -10,7 +10,7 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
-              <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" style={{ width: '250px' }}/>
+              <img src="/images/logo.png" alt="logo" style={{ width: '250px' }}/>
             </div>
           </ul>
           {state ? (
