@@ -17,7 +17,7 @@ ul > a:hover {
 .header {
   width: 100%;
   height: 100vh;
-  background: url("/public/images/AI_bg.gif");
+  background: url("/images/AI_bg.gif");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -52,6 +52,9 @@ ul > a:hover {
   font-weight: 500;
   font-size: 18px;
   padding: 0 15px;
+}
+.navbar.btn{
+  margin: 0;
 }
 
 /* Helpers */
@@ -152,6 +155,15 @@ ul > a:hover {
   border-radius: 50px;
 }
 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 0;
+}
+
 @media (max-width: 768px) {
   .header__buttons {
     display: flex;
@@ -161,6 +173,8 @@ ul > a:hover {
   }
 
 }
+
+
 
 .btn-outline1 {
   border: 2px solid #ff4a57;
@@ -249,20 +263,18 @@ ul > a:hover {
   background: #23263a;
   padding: 100px 0;
 }
-/* .about__img {
-  padding: 30px;
-} */
+
 .about__img img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
 }
-
 @media (max-width: 768px) {
   .about__img {
     margin: 0 auto; /* Centers the container in mobile view */
   }
 }
+
 .about__info {
   color: #fff;
 }
@@ -398,19 +410,48 @@ ul > a:hover {
     width: 100%;
   }
   .navbar__right {
+    display: none;
     flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #000;
     width: 100%;
-    align-items: center;
-    background: #1f2235;
-    position: fixed;
-    top: 0;
-    left: 0;
+    padding: 1rem;
+    z-index: 1000;
   }
   .navbar__right li a {
     display: block;
     padding: 20px 0;
     font-size: 14px;
   }
+
+  .navbar__right.active {
+    display: flex;
+  }
+  
+  .toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  /* @media (min-width: 768px) {
+    .navbar__right {
+      display: flex;
+      position: static;
+      flex-direction: row;
+      background: transparent;
+      width: auto;
+      padding: 0;
+    }
+  
+    .toggle {
+      display: none;
+    }
+  } */
+
   .toggle {
     display: flex;
   }
